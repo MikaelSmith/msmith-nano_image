@@ -1,0 +1,15 @@
+{
+  "name": "msmith-nano_image",
+  "version": "0.1.0",
+  "author": "msmith",
+  "summary": "Creates Microsoft Nano Server Base Images",
+  "license": "Apache-2.0",
+  "source": "https://github.com/MikaelSmith/msmith-nano_image",
+  "project_page": "https://github.com/MikaelSmith/msmith-nano_image",
+  "issues_url": "https://github.com/MikaelSmith/msmith-nano_image/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
