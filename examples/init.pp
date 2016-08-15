@@ -9,4 +9,6 @@
 # Learn more about module testing here:
 # https://docs.puppet.com/guides/tests_smoke.html
 #
-include ::nano_image
+class {'nano_image':
+  isopath => 'C:/temp/en_windows_server_2016_technical_preview_5_x64_dvd_8512312.iso',
+}

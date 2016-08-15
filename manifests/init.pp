@@ -42,7 +42,13 @@
 #
 # Copyright 2016 Your name here, unless otherwise noted.
 #
-class nano_image {
+class nano_image (
+  String $isopath
+) {
 
+  windows_isos {'WindowsServer2016Mount':
+    ensure => present,
+    isopath => $isopath,
+  }
 
 }
